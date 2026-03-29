@@ -1,33 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fdf5ec;
-  color: #333;
+  background-color: #f5f1eb;
+  color: #2b2b2b;
 }
 
 header {
-  background-color: #5a1a1a;
-  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+
+header h1 {
+  color: #6b0f1a;
+  font-weight: bold;
 }
 
 nav a {
-  color: white;
-  margin-right: 15px;
+  color: #333;
+  margin-left: 25px;
   text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
 }
 
-h1 {
+nav a:hover {
+  color: #6b0f1a;
+}
+
+section {
+  padding: 80px 50px;
   text-align: center;
-  margin-top: 20px;
 }
 
 h2 {
-  color: #5a1a1a;
-  border-bottom: 1px solid #5a1a1a;
-  padding-bottom: 5px;
+  margin-bottom: 20px;
+  color: #6b0f1a;
 }
 
 img {
   width: 200px;
+  border-radius: 10px;
 }
 
 table {
@@ -42,14 +67,14 @@ th, td {
 }
 
 th {
-  background-color: #5a1a1a;
+  background-color: #6b0f1a;
   color: white;
 }
 
 footer {
-  background-color: #5a1a1a;
-  color: white;
+  background: #2b2b2b;
+  color: #ddd;
+  padding: 30px;
   text-align: center;
-  padding: 10px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
