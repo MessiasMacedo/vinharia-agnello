@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <header>
+    <h1>Vinheria Agnello</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="#">Vinhos</a>
+      <a href="#">Sobre</a>
+      <a href="#">Time</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+<main>
+<section>
+    <h2>Cadastro</h2>
+<form class="formulario" action="#" method="post">
+
+<!--nome-->
+<label for="nome">Nome:</label>
+<input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+<!--email-->
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+<!--telefone -->
+<label for="telefone">Telefone:</label>
+<input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999">
+
+<!--Sexo-->
+<label>Sexo:</label>
+<div class="opcoes"> 
+    <input type="radio" id="homem" name="sexo" value="homem">
+    <label for="homem">Homem</label>
+
+    <input type="radio" id="mulher" name="sexo" value="mulher">
+    <label for="mulher">Mulher</label>
+</div>
+
+<button type="submit" class="btn">Cadastrar</button>
+
+</form>    
+</section>
+</main>
+<footer>
+    <p>Vinheria © 2026 - Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
