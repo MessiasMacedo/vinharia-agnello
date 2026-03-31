@@ -40,79 +40,6 @@ nav a:hover {
     color: #6b0f1a;
 }
 
-/* HERO COM IMAGEM */
-.Imagem {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 70px;
-    overflow: hidden;
-}
-
-.img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    animation: zoom 20s ease-in-out infinite alternate;
-}
-
-/* overlay escuro */
-.Imagem::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.6);
-    top: 0;
-    left: 0;
-}
-
-/* TEXTO HERO */
-.Imagem-div {
-    position: relative;
-    color: white;
-    animation: fadeUp 1.5s ease;
-}
-
-.Imagem-div h2 {
-    font-size: 4rem;
-    margin-bottom: 20px;
-    font-weight: bold;
-    text-shadow: 2px 2px 15px rgba(0,0,0,0.9);
-}
-
-.Imagem-div p {
-    font-size: 1.3rem;
-    text-shadow: 1px 1px 10px rgba(0,0,0,0.8);
-}
-
-/* ANIMAÇÕES */
-@keyframes zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
-}
-
-@keyframes fadeUp {
-    from {
-        opacity: 0;
-        transform: translateY(40px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
 /* SECTIONS */
 section {
@@ -120,47 +47,22 @@ section {
     text-align: center;
 }
 
-h2 {
-    margin-bottom: 20px;
-    color: #6b0f1a;
-}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
 
-ul {
-    list-style: none;
-    margin-top: 10px;
-}
-
-ul li {
-    margin: 5px 0;
-}
-
-/* FUNDADORES */
-.harmonizacao {
-    background: #f5f1eb;
-}
-
-.harmonizacao-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-
-.harmonizacao-texto {
-    max-width: 500px;
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
     text-align: left;
-}
+  }
 
-.harmonizacao-texto p {
-    line-height: 1.6;
-}
+  th {
+    background-color: #5a1a1a;
+    color: white;
+  }
 
-.harmonizacao-img img {
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
 
 /* FOOTER */
 footer {
