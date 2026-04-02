@@ -35,6 +35,22 @@ vinharia-agnello/
 │       ├── sobre_nós.html
 │       └── times.html
 ```
+O site é composto pelas seguintes páginas:
+
+- **Index (Página Principal)**  
+  Página inicial com apresentação sobre os vinhos e dicas.
+
+- **Cadastro**  
+  Página destinada ao cadastro de usuários.
+
+- **Vinhos / Venda**  
+  Página com exibição dos produtos disponíveis, incluindo informações como nome, preço e imagem.
+
+- **Time de Vinheiros**  
+  Apresentação da equipe da vinheria, com descrição dos membros e suas funções.
+
+- **Sobre Nós**  
+  Página com a história da vinheria, seus valores e principais características.
 
 ---
 
