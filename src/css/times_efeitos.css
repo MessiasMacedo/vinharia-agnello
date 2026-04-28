@@ -3,6 +3,10 @@
     color: #6b0f1a;
 }
 
+.descrição:hover{
+    color:#6b0f1a
+}
+
 .Imagem_int {
     transition: 0.3s;
 }
