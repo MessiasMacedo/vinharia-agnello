@@ -1,0 +1,9 @@
+section h2 {
+    display: inline-block;
+    transition: transform 0.4s ease, color 0.4s ease;
+}
+ 
+section h2:hover {
+    transform: scale(1.05) rotate(-1deg);
+    color: #7b2d2d;
+}
