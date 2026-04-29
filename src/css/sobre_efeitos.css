@@ -37,3 +37,12 @@ header {
 header:hover {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
+
+.harmonizacao-div {
+    transition: transform 0.4s ease, background-color 0.4s ease;
+}
+ 
+.harmonizacao-div:hover {
+    transform: skewX(-1deg) scale(1.02);
+    background-color: rgba(123, 45, 45, 0.08);
+}
