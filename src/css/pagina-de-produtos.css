@@ -1,0 +1,48 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+ 
+body { font-family: Arial, sans-serif; background-color: #f5f0eb; color: #333; }
+ 
+header { background-color: #6b1a2a; padding: 15px; color: white; }
+header h1 { font-size: 24px; }
+nav { margin-top: 8px; }
+nav a { color: white; text-decoration: none; margin-right: 12px; }
+ 
+/* :hover e :focus */
+nav a:hover { color: #f0c040; text-decoration: underline; }
+nav a:focus { outline: 2px solid #f0c040; }
+ 
+main { max-width: 800px; margin: 25px auto; padding: 0 20px; }
+main h1 { color: #6b1a2a; margin-bottom: 8px; }
+ 
+/* ::after */
+main > h1::after { content: ""; display: block; width: 50px; height: 3px; background-color: #6b1a2a; margin-top: 5px; }
+ 
+/* ::first-letter */
+#p_main::first-letter { font-size: 2em; font-weight: bold; color: #6b1a2a; float: left; margin-right: 4px; }
+#p_main { color: #555; margin-bottom: 20px; overflow: hidden; }
+ 
+section { background: white; border: 1px solid #ddd; padding: 18px; margin-bottom: 18px; border-radius: 5px; }
+section h2 { color: #6b1a2a; border-bottom: 1px solid #ddd; padding-bottom: 6px; margin-bottom: 12px; }
+ 
+/* ::before */
+section h2::before { content: "🍷 "; }
+ 
+section img { width: 150px; height: 190px; object-fit: cover; border-radius: 4px; }
+ 
+/* :hover na imagem */
+section img:hover { opacity: 0.8; }
+ 
+section h3 { color: #444; margin: 8px 0 4px; }
+ 
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+th { background-color: #6b1a2a; color: white; padding: 9px; text-align: left; }
+td { padding: 9px; border-bottom: 1px solid #ddd; }
+ 
+/* :nth-child() */
+tbody tr:nth-child(even) { background-color: #f2ebe3; }
+tbody tr:hover { background-color: #e0d3c5; }
+ 
+/* ::selection */
+::selection { background-color: #6b1a2a; color: white; }
+ 
+footer { background-color: #6b1a2a; color: white; text-align: center; padding: 14px; margin-top: 30px; font-size: 13px; }
