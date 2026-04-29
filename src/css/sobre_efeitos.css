@@ -1,3 +1,14 @@
+nav a {
+    display: inline-block;
+    transition: color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+ 
+nav a:hover {
+    color: #fff;
+    background-color: #7b2d2d;
+    box-shadow: 0 4px 10px rgba(123, 45, 45, 0.4);
+}
+
 section h2 {
     display: inline-block;
     transition: transform 0.4s ease, color 0.4s ease;
