@@ -11,7 +11,13 @@ nav a { color: white; text-decoration: none; margin-right: 12px; }
 nav a:hover { color: #f0c040; text-decoration: underline; }
 nav a:focus { outline: 2px solid #f0c040; }
 
-main { max-width: 800px; margin: 25px auto; padding: 0 20px; }
+/* @keyframes - animação de entrada do conteúdo */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+main { max-width: 800px; margin: 25px auto; padding: 0 20px; animation: fadeIn 0.8s ease; }
 main h1 { color: #6b1a2a; margin-bottom: 8px; }
 
 /* ::after */
