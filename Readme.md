@@ -64,6 +64,18 @@ O site é composto pelas seguintes páginas:
 
 ---
 
+
+## ✨ Atualização: Efeitos Visuais e Interatividade
+
+Nesta etapa, focamos em aprimorar a experiência do usuário (UX) através de animações personalizadas e manipulações avançadas de CSS, trazendo mais dinamismo e sofisticação à interface:
+
+*   **Fabricio Zanzarine:** Implementou efeitos de *hover* dinâmicos nos perfis do time. Ao interagir com a descrição, o texto transiciona suavemente para a cor vermelha, destacando as informações.
+*   **Kaue Herculan:** Desenvolveu uma animação de "salto" (*levitation effect*) nos cards de produtos, além de aplicar uma suavização visual nas imagens para um catálogo mais moderno.
+*   **João Pedro da Cruz:** Refinou a interatividade do cadastro com uma barra decorativa inferior no botão e uma animação de confirmação visual ao selecionar o gênero no formulário.
+*   **Messias Macedo:** Aplicou um efeito de pulso (*pulse animation*) nos produtos e implementou transformações na seção de harmonização da página inicial.
+*   **Lucca Bragga:** Elevou a estética da página "Sobre Nós" através de sombreamentos estilizados nos títulos `h2` e transições suaves de preenchimento.
+
+---
 ## 🌐 Acesso ao Projeto
 
 🔗 https://messiasmacedo.github.io/vinharia-agnello/
