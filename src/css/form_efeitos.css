@@ -1,0 +1,33 @@
+/* INPUT SELECIONADO */
+.formulario input:focus{
+    outline: none;
+    border: 1px solid #6b0f1a;
+    box-shadow: 0 0 8px rgba(107, 15, 26, 0.3);
+}
+
+/* BOTÃO COM EFEITO AO PASSAR O MOUSE */
+.btn:hover{
+    background: #8c1c2b;
+    transform: translateY(-2px);
+}
+
+/* RADIO SELECIONADO */
+.opcoes input:checked{
+    accent-color: #6b0f1a;
+}
+/* EFEITO VISUAL NOS INPUTS */
+.formulario input::placeholder{
+    color: #999;
+    font-style: italic;
+}
+
+/* LINHA DECORATIVA NO TÍTULO */
+section h2::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #6b0f1a;
+    margin: 12px auto 0;
+    border-radius: 10px;
+}
