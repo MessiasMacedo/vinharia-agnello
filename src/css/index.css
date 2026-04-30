@@ -179,3 +179,17 @@ iframe {
     text-align: center;
     margin-top: 40px;
   }
+
+.harmonizacao-img img {
+    transition: transform 0.5s ease-in-out; 
+    cursor: pointer;
+}
+
+.harmonizacao-img img:hover {
+    transform: 
+        scale(1.1)          
+        rotate(3deg)        
+        translateY(-15px); 
+    
+    box-shadow: 0 10px 25px rgba(107, 15, 26, 0.3); 
+}
